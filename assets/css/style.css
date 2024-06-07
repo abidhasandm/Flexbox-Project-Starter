@@ -298,6 +298,10 @@ img{
     text-transform: capitalize;
 }
 
+.website a{
+    color: tomato;
+}
+
 /* Scroll to Top */
 
 .scroll-top{
