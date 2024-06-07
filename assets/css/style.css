@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
+body{
+    font-family: "Onest", sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+    transition: .3s;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.title h4{
+    text-transform: capitalize;
+    font-size: 40px;
+}
+
+/* Header CSS */
+
+.header-area{
+    padding: 30px 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a{
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li a{
+    text-transform: capitalize;
+    margin: 20px;
+    padding: 10px;
+}
+
+.menu ul li a:hover{
+    background-color: tomato;
+    color: #fff;
+}
+
+/* Banner CSS */
+
+.banner-area img {
+    border: 3px solid #ddd;
+    border-radius: 7px;
+    width: 100%;
+}
+
+/* About CSS */
+
+.about-area{
+    padding: 80px 0;
+
+}
+
+.about-title{
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.about-title h4{
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.about{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.single-about{
+    flex-basis: 32%;
+    border: 1px solid #ddd;
+    padding: 40px 20px;
+    transition: .3s;
+}
+
+.single-about:hover{
+    background-color: tomato;
+    color: #fff;
+}
+
+.single-about i{
+    font-size: 20px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px; 
+}
+
+.single-about h4{
+    text-transform: capitalize;
+    margin: 10px 0;
+    font-size: 24px; 
+}
+
+/* Services CSS */
+
+.services-area{
+    background-color: #f2f2f2;
+    padding: 80px 0;
+}
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.single-service{
+    background-color: #fff;
+    padding: 20px;
+    flex-basis: 32%;
+} 
+
+.single-service h4{
+    text-align: center;
+    background-color: teal;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.single-service img {
+    width: 100%;
+}
+
+.single-service p{
+    line-height: 28px;
+    margin: 20px 0;
+}
+
+.single-service a{
+    background-color: tomato;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    display: inline-block;
+    transition: .3s;
+}
+
+.single-service a:hover{
+    background-color: teal;
+}
+
+/* Gallery CSS */
+
+.gallery-area{
+    padding: 80px 0;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.single-gallery{
+    flex-basis: 23%;
+    margin-bottom: 35px;
+}
+
+.single-gallery img{
+    border: 1px solid #ddd;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+/* Contact CSS */
+
+.contact-area{
+    background-color: #f2f2f2;
+    padding: 80px 0;
+}
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-form{
+    flex-basis: 60%;
+}
+
+.contact-address{
+    flex-basis: 35%;
+}
+
+.contact-form input, .contact-form textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+.contact-form input[type="submit"] {
+    background-color: tomato;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .3s;
+    width: 40%;
+}
+
+.contact-form textarea{
+    height: 110px;
+}
+
+.contact-form input[type="submit"]:hover{
+    background-color: teal;
+}
+
+.single-contact{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.single-contact i{
+    background-color: tomato;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.single-contact h4{
+    text-transform: capitalize;
+    font-size: 22px;
+}
+
+.single-contact h4 span{
+    display: block;
+    font-size: 16px;
+    text-transform: lowercase;
+    font-weight: 400;
+}
+
+/* Footer */
+
+.footer-area{
+    background-color: teal;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-area p{
+    color: #fff;
+    text-transform: capitalize;
+}
+
+/* Scroll to Top */
+
+.scroll-top{
+    position: fixed;
+    background-color: tomato;
+    left: 20px;
+    bottom: 20px;
+    z-index: 3;
+    display: none;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50%;
+    transition: .3s;
+    cursor: pointer;
+}
